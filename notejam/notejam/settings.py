@@ -16,8 +16,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'notejam.db',
-        'USER': 'os.environ['DB_USER']',
-        'PASSWORD': 'os.environ['DB_PASS']',
+        'USER': os.environ['DB_USER'],
+        'PASSWORD': os.environ['DB_PASS'],
         'HOST': '',
         'PORT': '',
     }
